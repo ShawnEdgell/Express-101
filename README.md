@@ -1,1 +1,1 @@
-# Express-101
+# Local Library app using Express/Node.js

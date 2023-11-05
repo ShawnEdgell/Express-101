@@ -132,4 +132,7 @@ router.get("/bookinstance/:id", book_instance_controller.bookinstance_detail);
 // GET request for list of all BookInstance.
 router.get("/bookinstances", book_instance_controller.bookinstance_list);
 
+// GET catalog home page.
+router.get("/", book_controller.index); //This actually maps to /catalog/ because we import the route with a /catalog prefix
+
 module.exports = router;
